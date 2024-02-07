@@ -29,4 +29,4 @@ dtSex=[NumM[1],NumF[1]]
 dtSexb=pd.DataFrame(dtSex,index=["ชาย","หญิง"])
 st.bar_chart(dtSexb)
 
-st.pie_chart(dtSexb, labels=['ชาย', 'หญิง'])
+st.pie_chart(dtSexb)
