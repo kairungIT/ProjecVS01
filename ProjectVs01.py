@@ -22,5 +22,5 @@ NumM=dt[dt['Sex']=='ชาย'].count()
 NumF=dt[dt['Sex']=='หญิง'].count()
 
 dtSex=[NumM,NumF]
-dtSexb=pd.DataFrame(dtSex)
+dtSexb=pd.DataFrame(dtSex,index=["ชาย","หญิง"])
 st.bar_chart(dtSexb)
